@@ -96,10 +96,11 @@
     "yaml": "^2.4.5"
   },
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/style.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/style.css --watch",
+    "prettier": "npm prettier --write **/*.html"
   },
   "keywords": [],
-  "author": "",
+  "author":  "",
   "license": "ISC",
   "description": ""
 }
